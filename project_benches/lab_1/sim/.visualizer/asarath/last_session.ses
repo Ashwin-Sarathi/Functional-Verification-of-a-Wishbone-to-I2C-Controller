@@ -1,0 +1,49 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session skip_do_file="0" version="3">
+ <app argc="5">
+  <argv pos="0" value="vsim"/>
+  <argv pos="1" value="design.bin"/>
+  <argv pos="2" value="-do"/>
+  <argv pos="3" value="set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do"/>
+  <argv pos="4" value="+_sv_debug_+vsim-64-onfinishstop-classdebug-uvmcontrol=all-msgmodeboth-permit_unmatched_virtual_intf-sv_seed123456-msglimiterror-msglimitcount20-qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc-libqrun.out/work-visualizer=design.bin-statslogqrun.out/stats_logqrun_opt-appendlog-csession=incr-csessionid=3"/>
+ </app>
+ <window_config>
+  <dockareas right="567" top="0" left="204" bottom="509"/>
+  <taborder right="watch+" left="files+structure+testbench+" bottom="transcript+"/>
+  <activetab right="watch" activewindow="transcript" left="structure" bottom="transcript"/>
+  <window undocked="0" y="0" type="files" dock_location="left" visible="1" x="0"/>
+  <window undocked="0" y="0" type="structure" dock_location="left" visible="1" x="0"/>
+  <window undocked="0" y="0" type="testbench" dock_location="left" visible="1" x="0"/>
+  <window undocked="0" y="0" type="watch" dock_location="right" visible="1" x="0"/>
+  <window undocked="0" y="0" type="transcript" dock_location="bottom" visible="1" x="0"/>
+  <window undocked="0" y="131" height="941" type="rtl" visible="1" width="1540" x="-31"/>
+  <window undocked="1" y="31" height="941" type="wave" dock_location="bottom" visible="0" width="1540" x="8"/>
+  <window undocked="0" y="0" path="/mnt/ncsudrive/a/asarath/745/ece745_projects/project_benches/lab_1/testbench/top.sv" type="source" firstVisibleLine="108" dock_location="center" visible="1" x="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile tagName="sim" fileName="/mnt/ncsudrive/a/asarath/745/ece745_projects/project_benches/lab_1/sim/qwave.db" waveType="0"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser value_tooltip_mode="true" primary="true" value_annotation_mode="true" filepath="/mnt/ncsudrive/a/asarath/745/ece745_projects/project_benches/lab_1/testbench/top.sv" instancename="top"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 109"/>
+   </sourcetclcommands>
+   <edge_gui cur_selection="AnyEdge"/>
+  </main_window>
+  <watchTower_cur_setting customDisplayTimeUnitListStr="" curActiveWaveFile="sim" curRadix="2" curDisplayTimeUnit="-11" curDisplayTimeUnitStr="10ps">
+   <curTime hightime="0" lowtime="20000000"/>
+  </watchTower_cur_setting>
+  <files/>
+  <structure selection="top"/>
+  <testbench/>
+  <watch/>
+  <transcript/>
+ </gui>
+ <wave_mgr sync_time_range="0"/>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="top"/>
+</session>
